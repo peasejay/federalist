@@ -91,9 +91,9 @@ for section_index, section in enumerate(new_sections):
                     continue
                 
                 if paragraph_index == 4:
-                    fp.write("%s\n\\vspace{.25cm}\n\n" % (paragraph))
+                    fp.write("%s\n\\vspace{.4cm}\n\n" % (paragraph))
                 elif the_last:
-                    fp.write("\\vspace{.5cm}\n%s\n" % (paragraph))
+                    fp.write("\\vspace{.5cm}\n%s\n\n\\vspace{1.5cm}\n\n" % (paragraph))
                 else:
                     fp.write("%s\n\n" % (paragraph))
 
