@@ -82,6 +82,8 @@ for section_index, section in enumerate(new_sections):
                 p = re.compile('([A-Z][A-Z ]{3,})')
                 paragraph = p.sub(small_cap_replace, paragraph)
 
+                paragraph = paragraph.replace(" }", "} ")
+
                 # fix quotes, maybe
                 p = re.compile('(")(.*?)(")')
                 paragraph = p.sub(r"``\2\3", paragraph)
