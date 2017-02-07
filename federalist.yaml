@@ -1,0 +1,256 @@
+article_meta:
+    1:
+        author: Alexander Hamilton
+        publish_date: October 27, 1787
+    2:
+        author: John Jay
+        publish_date: October 31, 1787
+    3:
+        author: John Jay
+        publish_date: November 3, 1787
+    4:
+        author: John Jay
+        publish_date: November 7, 1787
+    5:
+        author: John Jay
+        publish_date: November 10, 1787
+    6:
+        author: Alexander Hamilton
+        publish_date: November 14, 1787
+    7:
+        author: Alexander Hamilton
+        publish_date: November 15, 1787
+    8:
+        author: Alexander Hamilton
+        publish_date: November 20, 1787
+    9:
+        author: Alexander Hamilton
+        publish_date: November 21, 1787
+    10:
+        author: James Madison
+        publish_date: November 22, 1787
+    11:
+        author: Alexander Hamilton
+        publish_date: November 24, 1787
+    12:
+        author: Alexander Hamilton
+        publish_date: November 27, 1787
+    13:
+        author: Alexander Hamilton
+        publish_date: November 28, 1787
+    14:
+        author: James Madison
+        publish_date: November 30, 1787
+    15:
+        author: Alexander Hamilton
+        publish_date: December 1, 1787
+    16:
+        author: Alexander Hamilton
+        publish_date: December 4, 1787
+    17:
+        author: Alexander Hamilton
+        publish_date: December 5, 1787
+    18:
+        author: James Madison
+        publish_date: December 7, 1787
+    19:
+        author: James Madison
+        publish_date: December 8, 1787
+    20:
+        author: James Madison
+        publish_date: December 11, 1787
+    21:
+        author: Alexander Hamilton
+        publish_date: December 12, 1787
+    22:
+        author: Alexander Hamilton
+        publish_date: December 14, 1787
+    23:
+        author: Alexander Hamilton
+        publish_date: December 18, 1787
+    24:
+        author: Alexander Hamilton
+        publish_date: December 19, 1787
+    25:
+        author: Alexander Hamilton
+        publish_date: December 21, 1787
+    26:
+        author: Alexander Hamilton
+        publish_date: December 22, 1787
+    27:
+        author: Alexander Hamilton
+        publish_date: December 25, 1787
+    28:
+        author: Alexander Hamilton
+        publish_date: December 26, 1787
+    29:
+        author: Alexander Hamilton
+        publish_date: January 9, 1788
+    30:
+        author: Alexander Hamilton
+        publish_date: December 28, 1787
+    31:
+        author: Alexander Hamilton
+        publish_date: January 1, 1788
+    32:
+        author: Alexander Hamilton
+        publish_date: January 2, 1788
+    33:
+        author: Alexander Hamilton
+        publish_date: January 2, 1788
+    34:
+        author: Alexander Hamilton
+        publish_date: January 5, 1788
+    35:
+        author: Alexander Hamilton
+        publish_date: January 5, 1788
+    36:
+        author: Alexander Hamilton
+        publish_date: January 8, 1788
+    37:
+        author: James Madison
+        publish_date: January 11, 1788
+    38:
+        author: James Madison
+        publish_date: January 12, 1788
+    39:
+        author: James Madison
+        publish_date: January 18, 1788
+    40:
+        author: James Madison
+        publish_date: January 18, 1788
+    41:
+        author: James Madison
+        publish_date: January 19, 1788
+    42:
+        author: James Madison
+        publish_date: January 22, 1788
+    43:
+        author: James Madison
+        publish_date: January 23, 1788
+    44:
+        author: James Madison
+        publish_date: January 25, 1788
+    45:
+        author: James Madison
+        publish_date: January 26, 1788
+    46:
+        author: James Madison
+        publish_date: January 29, 1788
+    47:
+        author: James Madison
+        publish_date: January 30, 1788
+    48:
+        author: James Madison
+        publish_date: February 1, 1788
+    49:
+        author: James Madison
+        publish_date: February 2, 1788
+    50:
+        author: James Madison
+        publish_date: February 5, 1788
+    51:
+        author: James Madison
+        publish_date: February 6, 1788
+    52:
+        author: James Madison
+        publish_date: February 8, 1788
+    53:
+        author: James Madison
+        publish_date: February 9, 1788
+    54:
+        author: James Madison
+        publish_date: February 12, 1788
+    55:
+        author: James Madison
+        publish_date: February 13, 1788
+    56:
+        author: James Madison
+        publish_date: February 16, 1788
+    57:
+        author: James Madison
+        publish_date: February 19, 1788
+    58:
+        author: James Madison
+        publish_date: February 20, 1788
+    59:
+        author: Alexander Hamilton
+        publish_date: February 22, 1788
+    60:
+        author: Alexander Hamilton
+        publish_date: February 23, 1788
+    61:
+        author: Alexander Hamilton
+        publish_date: February 26, 1788
+    62:
+        author: James Madison
+        publish_date: February 27, 1788
+    63:
+        author: James Madison
+        publish_date: March 1, 1788
+    64:
+        author: John Jay
+        publish_date: March 5, 1788
+    65:
+        author: Alexander Hamilton
+        publish_date: March 7, 1788
+    66:
+        author: Alexander Hamilton
+        publish_date: March 8, 1788
+    67:
+        author: Alexander Hamilton
+        publish_date: March 11, 1788
+    68:
+        author: Alexander Hamilton
+        publish_date: March 12, 1788
+    69:
+        author: Alexander Hamilton
+        publish_date: March 14, 1788
+    70:
+        author: Alexander Hamilton
+        publish_date: March 15, 1788
+    71:
+        author: Alexander Hamilton
+        publish_date: March 18, 1788
+    72:
+        author: Alexander Hamilton
+        publish_date: March 19, 1788
+    73:
+        author: Alexander Hamilton
+        publish_date: March 21, 1788
+    74:
+        author: Alexander Hamilton
+        publish_date: March 25, 1788
+    75:
+        author: Alexander Hamilton
+        publish_date: March 26, 1788
+    76:
+        author: Alexander Hamilton
+        publish_date: April 1, 1788
+    77:
+        author: Alexander Hamilton
+        publish_date: April 2, 1788
+    78:
+        author: Alexander Hamilton
+        publish_date: June 14, 1788
+    79:
+        author: Alexander Hamilton
+        publish_date: June 18, 1788
+    80:
+        author: Alexander Hamilton
+        publish_date: June 21, 1788
+    81:
+        author: Alexander Hamilton
+        publish_date: June 25, 1788 and June 28, 1788
+    82:
+        author: Alexander Hamilton
+        publish_date: July 2, 1788
+    83:
+        author: Alexander Hamilton
+        publish_date: July 5, 1788, July 9, 1788 and July 12, 1788
+    84:
+        author: Alexander Hamilton
+        publish_date: July 16, 1788, July 26, 1788 and August 9, 1788
+    85:
+        author: Alexander Hamilton
+        publish_date: August 13, 1788 and August 16, 1788

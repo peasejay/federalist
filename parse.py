@@ -1,5 +1,6 @@
 #!/usr/bin/env/python
 import re
+import yaml
 
 
 alltext = ''
@@ -7,6 +8,12 @@ sections = []
 with open('pg1404.txt') as fp:
     for line in fp:
         alltext += line
+
+with open("federalist.yaml", 'r') as stream:
+    try:
+        config = yaml.load(stream)
+    except yaml.YAMLError as exc:
+        print(exc)
 
 #print alltext
 
@@ -35,6 +42,7 @@ for section in sections:
 files = []
 
 for section_index, section in enumerate(new_sections):
+    article_no = section_index - 2
     if section_index < 3:
         continue
     if section_index > 87:
@@ -59,8 +67,10 @@ for section_index, section in enumerate(new_sections):
             if paragraph_index == 0:
                 pass
                 #fp.write("\\section[%s: %s]{%s\\\\ {\\large %s}}\n" % (paragraph, section[1], paragraph, section[1]))
-                fp.write("\\chapter[%s: %s]{%s\\\\ {\\small %s}}\n" % (paragraph.replace("FEDERALIST ", ""), section[1], paragraph.replace("FEDERALIST ", ""), section[1]))
+                fp.write("\\chapter[%s: %s]{%s\\\\ {\\small %s}}\n\n" % (paragraph.replace("FEDERALIST ", ""), section[1], paragraph.replace("FEDERALIST ", ""), section[1]))
             elif paragraph_index == 1:
+                fp.write("\\textit{%s}\n\n" % (config['article_meta'][article_no]['author']))
+                fp.write("\\textit{Original publication date: %s}\n\\vspace{1cm}\n\n" % (config['article_meta'][article_no]['publish_date']))
                 pass
                 #fp.write("\\section{%s}\n" % (paragraph))
             elif paragraph_index == 2:
@@ -97,13 +107,20 @@ for section_index, section in enumerate(new_sections):
                 elif the_last:
                     fp.write("\\vspace{.5cm}\n%s\n\n\\vspace{1.5cm}\n\n" % (paragraph))
                 else:
+                    # Split paragraphs into individual sentences in order to make things easier for git
+                    # to merge.
+                    paragraph = paragraph.replace(". ",". \n").replace("! ","! \n").replace("? ","? \n")
                     fp.write("%s\n\n" % (paragraph))
 
         #fp.write("\\end{document}\n")
 
 with open('federalist_main.tex', 'w') as fp:
+    fp.write("%!TEX TS-program = xelatex\n")
+    fp.write("%!TEX encoding = UTF-8 Unicode\n")
     fp.write("\\documentclass[10pt]{book}\n")
     fp.write("\\usepackage[utf8]{inputenc}\n")
+    fp.write("\\usepackage{fontspec,xunicode}\n")
+    fp.write("\\setmainfont[BoldFont={adobe-caslon-bold.otf}, ItalicFont={adobe-caslon-italic.otf}]{adobe-caslon.otf}\n")
     fp.write("\\title{The Federalist Papers}\n")
     fp.write("\\author{Alexander Hamilton, James Madison and John Jay}\n")
     fp.write("\\renewcommand{\\chaptername}{}\n")
